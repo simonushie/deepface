@@ -23,5 +23,5 @@ setuptools.setup(
         ["deepface = deepface.DeepFace:cli"],
     },
     python_requires='>=3.5.5',
-    install_requires=["numpy>=1.14.0", "pandas>=0.23.4", "tqdm>=4.30.0", "gdown>=3.10.1", "Pillow>=5.2.0", "opencv-python>=4.5.5.64", "tensorflow>=1.9.0", "keras>=2.2.0", "Flask>=1.1.2", "mtcnn>=0.1.0", "retina-face>=0.0.1", "fire>=0.4.0"]
+    install_requires=["numpy>=1.14.0", "pandas>=0.23.4", "tqdm>=4.30.0", "gdown>=3.10.1", "Pillow>=5.2.0", "opencv-python>=4.5.5.64", "tensorflow_cpu>=1.9.0", "keras>=2.2.0", "Flask>=1.0.2", "mtcnn>=0.1.0", "-e git+https://github.com/simonushie/retinaface.git@f8e55daae76cf04b898525bd79a54b1aa3321a10#egg=retinaface", "fire>=0.4.0"]
 )
